@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - ECommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js" defer></script>
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cart-items">
+            <h2>Cart Items</h2>
+            <div class="product-grid" id="cart-grid"></div>
+        </section>
+        <section id="order-summary">
+            <h2>Order Summary</h2>
+            <p id="total-price">Total: $0.00</p>
+        </section>
+        <button id="checkout-button">Proceed to Checkout</button>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
